@@ -128,7 +128,7 @@ resource "azurerm_linux_web_app" "main" {
   name                = "<YourName>-terraformed-app-service"
   resource_group_name = data.azurerm_resource_group.main.name
   location            = data.azurerm_resource_group.main.location
-  app_service_plan_id = azurerm_service_plan.main.id
+  service_plan_id = azurerm_service_plan.main.id
 
   site_config {
     application_stack {
