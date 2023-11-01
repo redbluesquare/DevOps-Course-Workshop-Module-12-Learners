@@ -251,7 +251,7 @@ resource "azurerm_mssql_server" "main" {
 
 resource "azurerm_mssql_database" "main" {
   name                = "<your-name>-non-iac-db"
-  server_id           = data.azurerm_mssql_server.main.id
+  server_id           = azurerm_mssql_server.main.id
   sku_name            = "Basic"
 }
 ```
