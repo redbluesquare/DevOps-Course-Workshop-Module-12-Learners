@@ -23,7 +23,7 @@ During this exercise we will:
 
 ### Set up the Azure provider
 
-* Terraform will authenticate via the Azure CLI, so make sure you're still logged in to the "Softwire DevOps Academy" directory, check with: `az account show`
+* Terraform will authenticate via the Azure CLI, so make sure you're still logged in to the "Corndel DevOps Academy" directory, check with: `az account show`
 * Make a new folder and inside it create a file called `main.tf` with the following contents
 
 ```terraform

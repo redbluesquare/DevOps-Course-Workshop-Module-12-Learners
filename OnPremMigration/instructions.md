@@ -41,7 +41,7 @@ We will connect to this database using Azure Data Studio and backup the database
 
 Now we will upload the bacpac file to an Azure storage container ready to restore it later.
 
-1. Log in to the [Azure portal](https://portal.azure.com/) and make sure you're in the "Softwire Academy" directory - it should appear in the top right below your name
+1. Log in to the [Azure portal](https://portal.azure.com/devops.corndel.com) and make sure you're in the "Corndel DevOps Academy" directory - it should appear in the top right below your name
 2. In the Azure portal, search for "Storage Accounts" in the top level search bar (in the blue bar, right at the top of the page)
 3. Click "Create" to create a new Storage Account, and configure it:
    * Select your workshop resource group (name ending in "_Workshop", not "_Workshop_M12_Pt2", that's for this afternoon)
