@@ -38,10 +38,12 @@ terraform {
 
 provider "azurerm" {
   features {}
+  subscription_id = "<SUBSCRIPTION_ID>"
 }
 ```
+You can find the relevant subscription ID by looking at the subscriptions page in the Azure portal (all resource groups are under the same single subscription in the Azure Tenant).
 
-* From a terminal inside the folder, run `terraform init`
+**From a terminal inside the folder, run `terraform init`**
 
 Terraform will automatically download the Azure provider and place it inside a new `.terraform` folder in the current directory.
 You should not add the `.terraform` directory to source control, although you can commit the `terraform.lock.hcl` which records the exact provider version used.
